@@ -3,8 +3,17 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'noto_sanslight';
+    src: url('notosans-light.woff2') format('woff2'),
+         url('notosans-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-    font-family: Segoe UI Symbol !important;
+    font-family: noto_sanslight !important;
 }
 
 .bgIndex {
